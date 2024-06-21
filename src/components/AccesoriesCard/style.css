@@ -1,0 +1,54 @@
+.accessories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+    margin-top: 197px;
+    margin-bottom: 90px;
+}
+
+.right-accessories img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    position: sticky;
+    top: 50px;
+}
+
+.left-accessories h1 {
+    font-size: 24px;
+}
+
+.left-1 h2 {
+    font-size: 22px;
+    font-weight: inherit;
+}
+
+.bullets {
+    margin-inline-start: 1em;
+}
+
+.trouble p {
+    color: #292525;
+    line-height: 24px;
+}
+
+.trouble h1 {
+    font-size: 22px;
+    font-weight: inherit;
+}
+
+.bullets p {
+    color: #292525;
+}
+
+.bullets li {
+    font-weight: 600;
+    color: black;
+}
+
+.bullets {
+    line-height: 24px;
+}

@@ -1,0 +1,48 @@
+.call-container {
+  background: #E8B320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 73px;
+  margin-top: 43px !important;
+  height: auto;
+  padding: 30px 0px;
+  max-width: 1280px;
+  margin: auto;
+  width: 100%;
+}
+.outer-call-container{
+  background: #E8B320;
+}
+
+.call-content h1 {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.call-content-1 button {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none !important;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.call-content-1 .fa-phone {
+  color: rgb(75, 69, 69);
+}
+
+
+
+@media screen and (max-width:868px) {
+  .call-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
