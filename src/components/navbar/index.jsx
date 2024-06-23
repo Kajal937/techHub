@@ -29,11 +29,11 @@ const Navbar = () => {
            
 
             </div>
-
+            </div>
 
             {/* 2 */}
 
-            <div className="second-navbar">
+            {/* <div className="second-navbar">
            
                 <div className="email">
                     <i class="fa-solid fa-envelope"></i>
@@ -69,9 +69,9 @@ const Navbar = () => {
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-tiktok"></i>
                 </div>
-            </div>
+            </div> */}
            
-        </div>
+       
     </>
 }
 

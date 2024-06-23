@@ -5,7 +5,7 @@ import './style.css';
 const AccessoriesCard = () => {
     return <>
 
-        <div className="accessories-container">
+        <div className="accessories-container px-4">
 
             <div className="left-accessories">
                 <h1>Common TV Issues and Possible Solutions</h1><br></br>

@@ -1,15 +1,24 @@
-.main-container{
+.main-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     grid-gap: 32px;
     max-width: 1280px;
     width: 100%;
     margin: auto;
 }
-.main-content-container{
+
+.main-content-container {
     width: 85%;
     margin: auto;
 }
-.content-heading{
+
+.content-heading {
     margin-top: 40px;
+}
+
+@media screen and (max-width:378px) {
+    .main-container {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    
 }

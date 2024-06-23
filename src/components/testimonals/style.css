@@ -39,7 +39,7 @@
   background-color: rgb(239, 242, 242);
   padding: 15px 13px 15px 27px;
   border-radius: 12px 12px 0px 0px;
-    height: 15%;
+    /* height: 15%; */
 }
 
 .emily-heading h1 {
@@ -70,7 +70,7 @@
   padding: 14px 23px 13px 23px;
   background: white;
   border-radius: 12px;
-  height: 63%;
+  height: 71%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,7 +84,8 @@
 
 .testimonials-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
+  /* 370 */
   grid-gap: 19px;
   max-width: 1280px;
   margin: auto;

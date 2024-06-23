@@ -14,7 +14,7 @@ const Testimonials = () => {
                     <div className="hr"></div>
                 </div>
 
-                <div className="testimonials-container">
+                <div className="testimonials-container px-4">
 
 
                     {/* use-map-function */}

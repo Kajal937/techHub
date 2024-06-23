@@ -48,20 +48,22 @@ const BatteryCard = () => {
     ]
     return <>
 
-        <div className="battery-container">
+        <div className="max-w-[1280px] mx-auto w-full mt-[50px]">
+            <div className="battery-container">
 
 
-            {/* use map function */}
-            {battery.map((value, index) => {
-                return <div className="battery-card" key={index}>
-                    <img src={value?.img}></img>
-                    <div className="battery-button">
-                        <button>HEADPHONE</button>
+                {/* use map function */}
+                {battery.map((value, index) => {
+                    return <div className="battery-card" key={index}>
+                        <img src={value?.img}></img>
+                        <div className="battery-button">
+                            <button>HEADPHONE</button>
+                        </div>
+                        <p>{value?.p}</p>
                     </div>
-                    <p>{value?.p}</p>
-                </div>
-            })}
+                })}
 
+            </div>
         </div>
 
     </>
